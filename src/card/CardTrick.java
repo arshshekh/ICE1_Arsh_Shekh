@@ -19,7 +19,8 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card[] magicHand = new Card[7];
-        public static final Card luckyCard = new Card("7", "Hearts"); 
+        
+        //public static final  luckyCard = new Card("7", "Hearts"); 
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
