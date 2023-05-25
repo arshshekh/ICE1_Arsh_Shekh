@@ -20,8 +20,8 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
-    /**
-     * @return the suit
+   public static final Card luckyCard = new Card("7", "Hearts); 
+   /* @return the suit
      */
     public String getSuit() {
         return suit;
